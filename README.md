@@ -11,7 +11,7 @@ This package provides an [iThenticate](http://www.ithenticate.com/) API Client f
 
 The easiest way to install is with [pip](https://pip.pypa.io).
 ```shell
-$ pip install ithenticate-api-python
+$ pip install git+https://github.com/pavanarya/ithenticate-api-python#egg=ithenticate-api-python
 ```
 
 ## Getting started ##
