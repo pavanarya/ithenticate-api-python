@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 from setuptools import setup, find_packages
 
-setup(name='ithenticate-api-python',
+setup(name='ithenticate-api-python-v1',
       version='0.8',
-      url='https://github.com/JorrandeWit/ithenticate-api-python',
-      author="Jorran de Wit",
-      author_email="jorrandewit@outlook.com",
+      url='https://github.com/pavanarya/ithenticate-api-python',
+      author="Pavan Arya",
+      author_email="pavan.aryasomayajulu@gmail.com",
       description="iThenticate API Client",
       classifiers=['Development Status :: 4 - Beta',
                    'Environment :: Web Environment',
