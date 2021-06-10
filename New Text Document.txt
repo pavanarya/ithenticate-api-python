@@ -1,0 +1,4 @@
+py -m pip install build
+py -m build --sdist
+twine check dist/*
+twine upload dist/*
