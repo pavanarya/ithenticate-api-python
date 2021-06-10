@@ -12,10 +12,6 @@
                         <name>id</name>
                         <value><int>{id}</int></value>
                     </member>
-                    <member>
-                        <name>p</name>
-                        <value><string>{page}</string></value>
-                    </member>
                 </struct>
             </value>
         </param>
