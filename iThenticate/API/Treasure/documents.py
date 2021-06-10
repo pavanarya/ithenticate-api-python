@@ -42,16 +42,17 @@ class Document(object):
                     self.client.getAPIStatus(xml_response),
                     self.client.getAPIMessages(xml_response))
 
-    def all(self, folder_id):
+    def all(self, folder_id, page_no):
         """
         Retrieve all documents within a folder
 
         :folder_id: The folder_id to retrieve documents from.
+        :page_no: The folder_id to retrieve documents from.
         """
-        xml_string = get_xml_as_string('get.xml')
+        xml_string = get_xml_as_string('get_documents_pagination.xml')
         xml_string = xml_string.format(sid=self.client._session_id,
                                        method_name='folder.get',
-                                       id=folder_id)
+                                       page=page_no,id=folder_id)
 
         xml_response = self.client.doHttpCall(data=xml_string)
 
