@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(name='ithenticate-api-python-v1',
-      version='1.4',
+      version='1.5',
       url='https://github.com/pavanarya/ithenticate-api-python',
       author="Pavan Arya",
       author_email="pavan.aryasomayajulu@gmail.com",
